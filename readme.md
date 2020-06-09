@@ -27,7 +27,7 @@ rosrun process_gnss parse_gnss_node
 
 ### 3. rviz显示
 
-[rviz数据展示](./pic/gnss.png)
+![rviz数据展示](./pic/gnss.png)
 
 
 
@@ -38,3 +38,11 @@ rosrun process_gnss parse_gnss_node
 - 我在程序中写死txt文件目录了，记得更改
 
 - 如果正常使用串口读取数据的话，记得修改对应的nmea_serial_driver程序
+
+- 第一个工作空间已经集成到ros sourcelist里面，可以直接使用apt下载：
+
+  ```
+  sudo apt install ros-kinetic-nmea-navsat-driver 
+  ```
+
+  
