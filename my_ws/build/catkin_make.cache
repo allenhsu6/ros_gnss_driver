@@ -1,0 +1,2 @@
+process_gnss
+-DCATKIN_DEVEL_PREFIX=/home/xu/my_ws/devel -DCMAKE_INSTALL_PREFIX=/home/xu/my_ws/install -G Unix Makefiles

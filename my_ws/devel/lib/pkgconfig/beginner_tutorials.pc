@@ -1,0 +1,8 @@
+prefix=/home/xu/my_ws/devel
+
+Name: beginner_tutorials
+Description: Description of beginner_tutorials
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/xu/my_ws/devel/lib 
+Requires: roscpp std_msgs message_runtime

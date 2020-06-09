@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/xu/gnss_driver_ws/src/cmake-build-debug/devel/setup.sh

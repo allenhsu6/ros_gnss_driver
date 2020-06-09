@@ -1,0 +1,2 @@
+nmea_navsat_driver
+-DCATKIN_DEVEL_PREFIX=/home/xu/gnss_driver_ws/devel -DCMAKE_INSTALL_PREFIX=/home/xu/gnss_driver_ws/install -G Unix Makefiles

@@ -1,0 +1,8 @@
+prefix=/home/xu/my_ws/devel
+
+Name: process_gnss
+Description: Description of process_gnss
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/xu/my_ws/devel/lib 
+Requires: roscpp std_msgs
