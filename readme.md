@@ -45,4 +45,16 @@ rosrun process_gnss parse_gnss_node
   sudo apt install ros-kinetic-nmea-navsat-driver 
   ```
 
-  
+## unicore部分
+
+unicore包主要包括和芯星通的组合导航设备中的三种主要信息格式进行解析，并发送对应ros节点输出：
+
+三种格式为: 
+inspva:组合导航
+rawimu:纯IMU数据
+gpgga：gps数据
+
+使用方法：新建workspace，在workspace下新建src, 将unicore包放在src目录下，然后在工作空间catkin_make安装编译即可。
+
+依赖：
+sudo apt install ros-kinetic-novatel-gps-driver   
